@@ -23,7 +23,7 @@ class Customer :
     def dict_details(self):
         return {
             "Customer ID": self.customer_id,
-            "Name": self.name,
-            "Address": self.address,
-            "account_numbers": self._account_numbers
+            " Name": self.name,
+            " Address": self.address,
+            " account_numbers": self._account_numbers
         }

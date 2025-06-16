@@ -5,6 +5,10 @@ class Account(ABC) :
         self.initial_balance = initial_balance
         self._account_holder_id= _account_holder_id
 
+    @property
+    def account_number(self):
+        return self._account_number
+
     @abstractmethod
     def deposit(self, amount):
         pass
